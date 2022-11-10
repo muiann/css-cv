@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(247, 244, 207);
+    color: rgb(121, 78, 52);
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+color: rgb(221, 150, 43);
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline ;
+}
+
+h1 {
+    color: rgba(75, 12, 12, 0.897);
+}
+.table {
+margin: 5px;
+border-radius: 5em;
+width: 100%;
+}
+.table td {
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30%;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0,25);
+    margin-bottom: 20px;
+}
+.name {
+    padding: 35px ;
+}
+.info {
+  display: flex;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info p {
+    color: rgba(158, 119, 68, 0.918);
+    font-style: italic; 
+    
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    
+}
+
+.card {
+    padding: 20px 25px;
+    background: rgba(235, 216, 155, 0.5);
+    margin-bottom: 27px;
+    border-radius: 25%;
+    
+}
+.card h2 {
+    padding: 0 20px;
+}
+.card-info {
+
+}
+
+.card-contact {
+    mm
+}
+.list {
+    list-style: none;
+}
+.form-group {
+    padding: 20px 25px;
+    background: rgba(235, 216, 155, 0.5);
+    margin-bottom: 27px;
+    border-radius: 25%;
+    }
+     h2 {
+        padding: 0 30px;
+    }
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: rgb(211, 175, 121);
+}
+.form-group input { 
+    width: 100%;
+    outline: none;
+    color: rgb(110, 78, 9);
+    border: none;
+    background: transparent;
+    font-family: inherit;
+}
+input { 
+    background: rgb(206, 185, 127);
+    font-family: inherit;
+    font-size: medium;
+    color: rgb(68, 41, 7);
+   border-radius: 30%;
+   border-color: rgb(216, 132, 29);
+   border-width: 5px;
+   padding: 20px 30px;
+   cursor: pointer;
+}
+ input:hover {
+    opacity: 0.9;
+ }
